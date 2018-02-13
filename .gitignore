@@ -8,3 +8,6 @@ Watermelons/Watermelons.Tests/bin/
 Watermelons/Watermelons.Tests/obj/
 Watermelons/Watermelons/bin/
 Watermelons/Watermelons/obj/
+Watermelons/Watermelons/Web.config
+Watermelons/Watermelons/Web.Release.config
+Watermelons/Watermelons/Web.Debug.config
