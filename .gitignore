@@ -1,0 +1,10 @@
+Test Files/
+sqlserver.txt
+Watermellons.zip
+*.zip
+Watermelons/.vs/
+Watermelons/packages/
+Watermelons/Watermelons.Tests/bin/
+Watermelons/Watermelons.Tests/obj/
+Watermelons/Watermelons/bin/
+Watermelons/Watermelons/obj/

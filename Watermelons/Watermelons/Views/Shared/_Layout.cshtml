@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    <div class="container-fluid body-content">
+        <header>
+            <img class="full-width" src="~/Content/Images/imageBG.jpg" alt="Watermelons Banner" />
+        </header>
+        @RenderBody()
+        <footer>
+            <ul>
+                <li id="fa-icons">
+                    <span class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
+                    <span class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-facebook fa-stack-1x "></i>
+                    </span>
+                    <span class="fa-stack">
+                        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                        <i class="fa fa-pinterest-p fa-stack-1x fa-inverse"></i>
+                    </span>
+                </li>
+                <li><a href="#">Home</a></li>
+                <li>@Html.ActionLink("Competition Entry", "CompetitionEntry", "Watermelon", null, htmlAttributes: new { @class = "active" })</li>
+                <li><a href="#">Recipies</a></li>
+                <li><a href="#">Industry</a></li>
+                <li><a href="#">Buy Online</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </footer>
+    </div>
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/watermelon")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
