@@ -1,4 +1,4 @@
-# LI Watermellon Coding Test
+# LI Watermelon Coding Test
 
 ## ASP.NET Developer Exam
 ### Objectives
